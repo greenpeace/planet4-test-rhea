@@ -3,7 +3,7 @@ version: 2.1
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:debug
 
 orbs:
   slack: circleci/slack@3.4.2

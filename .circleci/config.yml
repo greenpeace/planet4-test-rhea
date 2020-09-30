@@ -21,6 +21,8 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-test-rhea
     NEWRELIC_APPNAME: P4 test-rhea Development
+    MIN_REPLICA_COUNT: 1
+    MAX_REPLICA_COUNT: 1
     WP_DB_NAME: planet4-testrhea_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-rhea-stateless-develop
 

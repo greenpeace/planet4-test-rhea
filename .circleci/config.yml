@@ -11,7 +11,7 @@ job_environments:
   common_environment: &common_environment
     APP_HOSTPATH: test-rhea
     CONTAINER_PREFIX: planet4-test-rhea
-    WP_DB_NAME_PREFIX: planet4-testrhea_wordpress
+    WP_DB_NAME_PREFIX: planet4-test-rhea_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: k8s.p4.greenpeace.org
@@ -23,7 +23,7 @@ job_environments:
     NEWRELIC_APPNAME: P4 test-rhea Development
     MIN_REPLICA_COUNT: 1
     MAX_REPLICA_COUNT: 1
-    WP_DB_NAME: planet4-testrhea_wordpress_develop
+    WP_DB_NAME: planet4-test-rhea_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-rhea-stateless-develop
 
 job_definitions:

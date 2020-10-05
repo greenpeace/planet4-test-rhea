@@ -1,6 +1,11 @@
 ---
 version: 2.1
 
+parameters:
+  rollback:
+    type: boolean
+    default: false
+
 defaults: &defaults
   docker:
     - image: greenpeaceinternational/p4-builder:latest
@@ -21,8 +26,6 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-test-rhea
     NEWRELIC_APPNAME: P4 test-rhea Development
-    MIN_REPLICA_COUNT: 1
-    MAX_REPLICA_COUNT: 1
     WP_DB_NAME: planet4-test-rhea_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-rhea-stateless-develop
 

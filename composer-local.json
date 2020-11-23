@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 test-rhea",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master"
+		"greenpeace/planet4-master-theme" : "dev-include-dash-dash-plugin-in-webpack",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-include-dash-dash-plugin-in-webpack"
 	},
 	"scripts": {
 		"site:custom" : []

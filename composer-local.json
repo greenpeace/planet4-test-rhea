@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-rhea",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-remove-sprite-symbol-svg",
+		"greenpeace/planet4-master-theme": "dev-modify-footer-nav-type-classname",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
 	},
 	"scripts": {

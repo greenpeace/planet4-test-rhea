@@ -5,9 +5,9 @@
 	"require": {
 		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
-		 "plugins/sitepress-multilingual-cms": "*",
-        	 "plugins/wpml-translation-management": "*",
-        	 "plugins/wpml-string-translation": "*"
+		"plugins/sitepress-multilingual-cms": "*",
+		"plugins/wpml-translation-management": "*",
+		"plugins/wpml-string-translation": "*"
 	},
 	"scripts": {
 		"site:custom": []

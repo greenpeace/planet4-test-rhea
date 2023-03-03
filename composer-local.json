@@ -6,7 +6,6 @@
 		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main",
 		"plugins/sitepress-multilingual-cms": "*",
-        	"plugins/wpml-translation-management": "*",
         	"plugins/wpml-string-translation": "*"
 	},
 	"data_from": "canada",

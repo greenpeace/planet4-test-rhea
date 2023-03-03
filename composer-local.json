@@ -6,9 +6,6 @@
 		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
 	},
-	"scripts": {
-		"site:custom": []
-	},
 	"data_from": "canada",
 	"repositories": [
 		{

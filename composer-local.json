@@ -1,49 +1,9 @@
 {
-	"name": "greenpeace/planet4-test-rhea",
-	"description": "Greenpeace P4 test-rhea",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/fe66d0ee924da80f4426dc07c1be074e0410df74.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/01b86b9ce6a39c2fbcd1042c632cea5b1e5e9460.zip"
-				}
-			}
-		}
-	]
+  "name": "greenpeace/planet4-test-rhea",
+  "description": "Greenpeace P4 test-rhea",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-master-theme": "dev-main",
+    "greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
+  }
 }

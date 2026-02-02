@@ -3,6 +3,26 @@
 	"description": "Greenpeace P4 test-rhea",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-main"
-	}
+		"greenpeace/planet4-master-theme": "7"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/33f89022b747d17508c9f3a040a10c15d0536106.zip"
+				}
+			}
+		}
+	]
 }
